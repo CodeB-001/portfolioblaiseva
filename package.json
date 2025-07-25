@@ -1,11 +1,17 @@
 {
   "name": "client",
+  "homepage": "https://blaiseVA.github.io/blaiseva",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist", 
+    "start": "vite",
     "build": "vite build",
+    "test": "vitest",
+    "preview": "vite preview",
     "lint": "eslint .",
     "preview": "vite preview"
   },
