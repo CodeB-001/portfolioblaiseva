@@ -8,6 +8,6 @@ export default defineConfig({
     tailwindcss(),
     
   ],
-  base: '/blaiseva'
+  base: '/portifolio/', 
 })
 
